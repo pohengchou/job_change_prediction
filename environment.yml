@@ -1,0 +1,23 @@
+name: job_change_ML
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - xgboost
+  - lightgbm
+  - shap
+  - jupyterlab
+  - ipykernel
+  - notebook
+  - openpyxl
+  - pip
+  - pip:
+      - tqdm
+      - category_encoders
+      - imbalanced-learn
